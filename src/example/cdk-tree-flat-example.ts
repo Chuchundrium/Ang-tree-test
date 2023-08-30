@@ -9,6 +9,7 @@ const TREE_DATA: ExampleFlatNode[] = [
     name: 'Fruit',
     expandable: true,
     level: 0,
+    isExpanded: true,
   },
   {
     name: 'Apple',
@@ -29,6 +30,7 @@ const TREE_DATA: ExampleFlatNode[] = [
     name: 'Vegetables',
     expandable: true,
     level: 0,
+    isExpanded: true,
   },
   {
     name: 'Broccoli',

@@ -6,49 +6,50 @@ import { MatButtonModule } from '@angular/material/button';
 
 const TREE_DATA: ExampleFlatNode[] = [
   {
-    name: 'Fruit',
+    name: 'Category A',
     expandable: true,
     level: 0,
     isExpanded: true,
   },
   {
-    name: 'Apple',
+    name: 'Aaaa: 158',
     expandable: false,
     level: 1,
   },
   {
-    name: 'Banana',
+    name: 'Cccc: 654',
     expandable: false,
     level: 1,
   },
   {
-    name: 'Fruit loops',
-    expandable: false,
-    level: 1,
-  },
-  {
-    name: 'Vegetables',
+    name: 'Category B',
     expandable: true,
     level: 0,
     isExpanded: true,
   },
   {
-    name: 'Broccoli',
+    name: 'Zzzzz: 1',
     expandable: false,
     level: 1,
   },
   {
-    name: 'Brussels sprouts',
+    name: 'General (no category)',
+    expandable: true,
+    level: 0,
+    isExpanded: true,
+  },
+  {
+    name: 'Dddd: 456',
     expandable: false,
     level: 1,
   },
   {
-    name: 'Pumpkins',
+    name: 'Eeee: 987',
     expandable: false,
     level: 1,
   },
   {
-    name: 'Carrots',
+    name: 'Fffff: 5456',
     expandable: false,
     level: 1,
   },

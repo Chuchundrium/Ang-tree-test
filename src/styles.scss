@@ -1,9 +1,60 @@
 body {
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 30px;
 }
 
-html, body {
+html,
+body {
   height: 100%;
+}
+
+:root {
+  --primary-color: #ff8000;
+  --primary-color-light: color-mix(in srgb, var(--primary-color) 80%, white);
+  --primary-color-lighter: color-mix(in srgb, var(--primary-color) 60%, white);
+  --primary-color-dark: color-mix(in srgb, var(--primary-color) 80%, black);
+  --primary-color-darker: color-mix(in srgb, var(--primary-color) 60%, black);
+
+  --accent-color: #4f8061;
+  --accent-color-light: color-mix(in srgb, var(--accent-color) 80%, white);
+  --accent-color-lighter: color-mix(in srgb, var(--accent-color) 60%, white);
+  --accent-color-dark: color-mix(in srgb, var(--accent-color) 80%, black);
+  --accent-color-darker: color-mix(in srgb, var(--accent-color) 60%, black);
+
+  --white: #fff;
+  --black: #171717;
+  --grey: #c0c4cc;
+  --light-grey: #f2f2f2;
+  --dark-grey: #898e90;
+
+  --text: var(--white);
+  --text-dark: var(--black);
+  --text-light: #ffffff99;
+  --text-grey: var(--dark-grey);
+  --select-text: #999;
+
+  --background: #3a4345;
+  --background-light: #898e90;
+  --background-dark: #23282a;
+
+  --panel-background: var(--light-grey);
+  --divider: var(--grey);
+
+  --link-text: #36a1ff;
+  --icon-dark: var(--text-dark);
+  --icon-grey: var(--text-grey);
+  --icon-light-outline: #494b4c;
+  --button-bg-dark: var(--background-dark);
+  --button: var(--primary-color);
+  --button-alt: #c4559e;
+  --good: #03b032;
+  --warning: #ffbb33;
+  --error: #b3443b;
+
+  --box-shadow-color: color-mix(in srgb, var(--black) 45%, transparent);
+  --box-shadow-color-light: color-mix(in srgb, var(--black) 30%, transparent);
+  --box-shadow-color-lighter: color-mix(in srgb, var(--black) 20%, transparent);
+
+  --outline-color: color-mix(in srgb, var(--white) 30%, transparent);
 }
